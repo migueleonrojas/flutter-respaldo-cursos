@@ -1,0 +1,12 @@
+Para instalar flutter:
+
+1 - Ir a la pagina flutter.dev, no se instale flutter en c:/program file
+
+2 - El archivo que se descargo la colocamos en c:/, eso seria la instalacion
+
+3 - Se definen las variables de entorno, esa opcion esta en: 
+  variables de entorno > variables de entorno > path > editar
+
+3.1 - Se va a crear una variable de entorno se va colocar como valor la ubicacion de la carpeta bin
+de nuestra carpeta de flutter, en este caso particular es : 
+C:\flutter_windows_3.3.0-stable\flutter\bin

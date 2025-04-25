@@ -1,0 +1,23 @@
+Con control + . tambien existe la posibilidad de envolver varios widgets, con la ayuda
+de las opciones que se muestran: Wrap with widget...
+
+Se va a modificar el archivo "home_screen.dart"
+
+
+Scaffold: es un widget, que sirve como lienzo el cual posee unas opciones para colocar nuestros 
+widgets
+
+
+BuildContext: es todo mi arbol de widgets, sirve para saber cual es el contexto en el cual 
+nuestro widget esta siendo construido. En otras palabras es para saber en donde esta siendo construido el widget.
+
+Tambien se sabra que widgets tiene como ancestros, por ejemplo
+su widget padre, su widget abuelo, su widget bisabuelo, etc
+
+El BuildContext te permite acceder a informacion que declaren todos los widgets padres, widgets
+abuelos, widgets bisabuelo, etc
+
+Los widgets ascentros y/o los que estan antes y afuera de la creacion del contexto, no saben 
+de los valores que se crean despues de la creacion del contexto.
+Pero los widgets que estan dentro y despues de la creacion del contexo, si saben de dichos valores creados
+

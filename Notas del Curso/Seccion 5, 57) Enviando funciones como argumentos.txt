@@ -1,0 +1,2 @@
+Un widget va a pasar varias funciones a otro a travez de una instancia, ya que el otro
+widget posee los botones donde se realiza las acciones de dichos botones,

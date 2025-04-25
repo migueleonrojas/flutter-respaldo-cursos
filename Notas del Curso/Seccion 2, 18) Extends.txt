@@ -1,0 +1,56 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main(){
+  
+  final superman = new Heroe('Clark Kent');
+  final luthor = new Villano('Lex Luthor');
+  
+  
+ 
+  print(superman);
+  print(luthor);
+  
+  
+}
+
+abstract class Personaje {
+  String? poder;
+  String nombre;
+  
+  Personaje(this.nombre);
+  
+  @override
+  String toString() {
+    return '$nombre - $poder';
+  }
+  
+}
+
+//extendiendo una clase, la clase que extiende de otra
+//heredara todos los metodos y atributos de la clase de la cual extendio,
+//ha diferencia de la implementacion esos metodos y propiedades ya estan
+//implementados
+class Heroe extends Personaje {
+  
+  int valentia = 100;
+  
+  
+  Heroe( String nombre ):super(nombre);//super llama al constructor de la clase que se extiende
+  
+}
+
+
+class Villano extends Personaje {
+  
+  int maldad = 50;
+  
+  Villano(String nombre):super(nombre);
+  
+  
+  
+  
+}
+
+

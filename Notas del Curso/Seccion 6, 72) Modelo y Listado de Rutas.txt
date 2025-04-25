@@ -1,0 +1,15 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  - main.dart (se va a modificar este archivo en este video)
+
+  - models (se va a crear una carpeta en este video)
+
+    models.dart (se va crear este archivo en este video, aqui se exportaran todos los archivos 
+                que contiene la carpeta models, para que solo haya una sola importacion en 
+                cualquier otro archivo de todos los archivos de la carpeta models)
+    
+    menu_option.dart (se va crear este archivo en este video)
+
+  - screens
+
+    - home_screens.dart (se va a modificar este archivo en este video)

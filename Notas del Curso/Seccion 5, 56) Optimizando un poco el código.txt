@@ -1,0 +1,3 @@
+Se puede extraer un widget con control + .  
+
+Se crea un widget independiente como si fuera una clase

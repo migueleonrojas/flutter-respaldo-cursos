@@ -1,0 +1,30 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - assets 
+
+ pubspec.yaml (se va agregar 2 dependencias: "http: ^0.13.5" y "provider: ^6.0.3") (se coloca por donde esta cupertino)
+
+ main.dart           
+
+ - helpers
+
+ - providers
+  movies_provider.dart (se creo en este video)
+
+ - screens
+
+  - home_screen.dart
+  - details_screen.dart 
+  - screens.dart        
+
+ - widgets
+  - card_swiper.dart 
+  - widgets.dart       
+  - movie_slider.dart
+  - casting_cards.dart
+
+  - La opcion de la lupa te ayuda saber que widgets el cual solo seleccionandolo en el emulador
+
+Ruta para realizar las peticiones:
+https://api.themoviedb.org/3/movie/now_playing?api_key=d9fb15c4aa0b70f50e8a3395ad5e5d84&language=es-ES&page=1

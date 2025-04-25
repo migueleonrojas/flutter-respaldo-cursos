@@ -1,0 +1,12 @@
+Arbol de widgets: 
+  Ejemplo:
+
+    Scaffold (Widget) (padre)
+        TabBar (Widget) (hijo)
+
+        AppBar (Widget) (hijo)
+
+        Container (Widget) (hijo)
+            Text (Widget)  (nieto)
+                Row (Widget) (bis nieto)
+            Widget Personalizado  (nieto) (puede servir para crear widgets que el mismo pero con diferente contenido)

@@ -1,0 +1,24 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main(){
+  
+  final String nombre = 'Fernando';
+  
+  //saludar(nombre, 'Greetings');
+  saludar2(mensaje:'hi' , nombre: nombre);
+}
+
+//funciones
+//[] para indicar argunmento opcional con su valor por defecto
+void saludar(String nombre, [String mensaje = 'Hi']) {
+  print('$mensaje $nombre');
+}
+
+//{}: esto hace que el paso de parametros no siga un orden especifico
+//String nombre = 'valor': para que el parametro no sea nulo y no salte el error
+//required:  para obligar de que hay que pasar el parametro para que la funcion sirva
+void saludar2( { String nombre = 'No Name', required String mensaje}){
+  print('$mensaje $nombre');
+}

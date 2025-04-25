@@ -1,0 +1,23 @@
+Conceptos claves:
+
+- Widget: Es una clase que puede obtener argumentos posicionales y/o argumentos con nombre
+
+  - Hay 2 tipos de Widgets, ambos son abstractos:
+
+    1 - StatelessWidget: 
+      - sin estado
+      - no le importa si una propiedad cambia, y de hecho no podria cambiar
+      - no se redibuja ya que su propiedad no se modifica, aunque se podra con otros metodos
+
+    Ejemplo una clase que se le define una propiedad que es final, NO se puede modificar
+
+
+    2 - StatefulWidget: 
+      - con estado
+      - nos va a permitir saber el estado de si mismo
+      - se redibuja cuando sucede algun cambio
+    
+    Ejemplo una clase que se le define una propiedad que es variable, SI se puede modificar
+
+Todo en flutter es un Widget, excepto las clases que usamos para mantener la informacion y los
+modelos de datos 

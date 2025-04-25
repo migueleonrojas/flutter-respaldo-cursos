@@ -1,0 +1,11 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+ - screens
+
+  - slider_screen.dart (se va a crear este archivo en este video)
+  - screens.dart (se va a modificar este archivo en este video)
+
+- router
+
+ - app_routes.dart (se va a modificar este archivo en este video)
+

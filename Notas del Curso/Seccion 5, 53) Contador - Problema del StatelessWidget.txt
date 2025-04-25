@@ -1,0 +1,6 @@
+Hay un inconveniente con el StatelessWidget
+
+Ya que si se cambia un valor y se quiere mostrar ese cambio en la pantalla, no se va a poder
+ya que el widget con StatelessWidget solo se dibuja una vez, aunque el valor si se haya cambiado
+
+Se pudiera solucionar con la gestion del estado que es un tema que se vera mas adelante.

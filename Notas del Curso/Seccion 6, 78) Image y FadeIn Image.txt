@@ -1,0 +1,21 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+widgets
+
+ - custom_card_type_2.dart (se creo este archivo en este video)
+ - widgets.dart (se va a modificar esta carpeta en este video)
+
+screens 
+
+ - card_screens.dart (se va a modificar esta carpeta en este video)
+
+assets (se creo esta carpeta en este video, en la raiz del proyecto se ubicara)
+ - jar-loading.gif (se agrego esta imagen)
+
+pubspec.yaml (se va a modificar este archivo, para indicar que se van a usar 
+             imagenes en el proyecto, se indica la ruta de la imagen y el nombre de la imagen
+             donde dice assets,
+             se indicaria asi = 
+             assets:
+              - assets/ )aqui se indica que se accede a todo el contenido de la carpeta, si 
+                         tienes subscarpetas deberias colocar entonces assets/sub-carpeta/

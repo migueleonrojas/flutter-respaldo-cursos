@@ -1,0 +1,4 @@
+Para ver las recomendaciones cuando aparece un error en un lugar del programa:
+
+1 - Situarse en el error con el input
+2 - Presionar control + '.' 

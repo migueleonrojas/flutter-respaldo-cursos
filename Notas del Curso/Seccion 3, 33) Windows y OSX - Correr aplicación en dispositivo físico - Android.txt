@@ -1,0 +1,30 @@
+Hay que habilitar el usb en el dispositivo, para ellos se hace lo siguiente:
+
+1 - Ir a ajustes > Acerca del telefono > En donde esta la version de android tocar repetidamente
+hasta que indica que ya eres programador
+
+2 - Te diriges a Acerca del telefono > ajustes adicionales > opciones de desarrollador > 
+depuracion USB: la activas
+
+
+Ahora se conecta el dispositivo a la computadora
+
+En el proyecto se se presiona control + shift + p, para buscar el dispositivo conectado
+por usb con el comando = flutter select device y presionas f5 para andar la aplicacion
+
+Si tienes un xiaomi debes realizar los siguientes ajustes:
+
+Steps for MIUI 9 and Above:
+
+  Settings -> Additional Settings -> Developer options ->
+
+    1 - Turn off "MIUI optimization" and Restart
+
+    2 - Turn On "USB Debugging"
+
+    3 - Turn On "Install via USB"
+
+      MTP(Media Transfer Protocol) is the default mode.
+      Works even in MTP in some cases
+
+    4 - Set USB Configuration to Charging

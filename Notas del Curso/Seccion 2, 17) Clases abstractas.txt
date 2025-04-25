@@ -1,0 +1,50 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main(){
+  
+  //las clases abstractas no pueden ser instanciadas
+  
+  
+  final perro = new Perro();
+  final gato = new Gato();
+  
+  sonidoAnimal(perro);
+  sonidoAnimal(gato);
+  
+  
+}
+
+void sonidoAnimal(Animal animal) {
+  animal.emitirSonido();
+}
+
+
+//la clase abstracta sirve para que otras clases implementen lo definido en la clase abstracta
+abstract class Animal {
+  
+  int? patas;
+  
+  void emitirSonido();
+  
+}
+
+//se debe implementar lo que se definio en la clase Animal la cual es abstracta
+class Perro implements Animal {
+  
+  int? patas;
+  
+  //se puede usar la nomenclatura de la flecha
+  void emitirSonido() => print('Guauuuuu');
+  
+  
+}
+
+class Gato implements Animal {
+  int? patas;
+  int? cola;
+  
+  void emitirSonido() => print('Miauuuuu'); 
+  
+}

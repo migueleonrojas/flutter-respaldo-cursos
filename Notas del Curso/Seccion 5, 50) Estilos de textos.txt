@@ -1,0 +1,1 @@
+Se aplico estilos a los textos, en este caso el tamano de la letra

@@ -1,0 +1,10 @@
+Hay propiedades de algunos widgets que la asignacion de estos, debe ser un widget 
+especifico
+
+Para que un widget tenga mas de 1 hijo se usa el widget column, hara que se posicionen uno 
+abajo del otro
+
+Tarea: colocar en una columna 2 textos
+
+1 texto que diga Click Counter
+2 texto que diga un numero

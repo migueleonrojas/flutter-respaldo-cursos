@@ -1,0 +1,35 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main(){
+  
+  //tipo de dato mapa: se conoce como objetos literales, diccionarios, etc
+  //Map persona = {
+  //  'nombre' : 'Fernado',
+  //  'edad' : 35,
+  //  'soltero' : false,
+  //  true: false,
+  //  1: 100,
+  //  2: 500
+  //};
+  
+  
+  //String: se indica que todas las llaves sean de tipo String
+  //dynamic: los valores pueden ser de cualquier tipo
+  Map<String, dynamic> persona = {
+    'nombre' : 'Fernado',
+    'edad' : 35,
+    'soltero' : false,
+  };
+  
+  //para agregar un nuevo elemento al mapa
+  persona.addAll({'segundoNombre':'Juan'});
+  
+  
+  print(persona);
+  //print(persona['nombre']);//accediendo a un valor del mapa a travez de una llave del mapa
+  //print(persona[true]);//cuando la llave no se un string para acceder al valor
+  //print(persona[2]);//cuando la llave no se un string para acceder al valor
+  
+}

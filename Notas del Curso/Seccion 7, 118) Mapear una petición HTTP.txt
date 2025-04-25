@@ -1,0 +1,35 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - assets 
+
+ pubspec.yaml 
+
+ main.dart           
+
+ - helpers
+
+ - models 
+
+  - now_playing_response.dart 
+  - movie.dart (se creo en este video)
+  - models.dart (se creo en este video)
+
+ - providers
+  - movies_provider.dart (se va a modificar en este video)
+
+
+ - screens
+
+  - home_screen.dart
+  - details_screen.dart 
+  - screens.dart        
+
+ - widgets
+  - card_swiper.dart 
+  - widgets.dart       
+  - movie_slider.dart
+  - casting_cards.dart
+
+Ruta para realizar las peticiones:
+https://api.themoviedb.org/3/movie/now_playing?api_key=d9fb15c4aa0b70f50e8a3395ad5e5d84&language=es-ES&page=1

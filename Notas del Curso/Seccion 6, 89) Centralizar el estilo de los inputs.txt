@@ -1,0 +1,10 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+ - widgets
+
+  - custom_input_field.dart (se creo este archivo en este video)
+  - widgets.dart (se va a modificar este archivo en este video) 
+
+ - screens 
+  
+  - inputs_screens.dart (se va a modificar este archivo en este video) 

@@ -1,0 +1,40 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - assets 
+
+ pubspec.yaml 
+
+ main.dart           
+
+ - helpers
+
+ - models (se va a crear en este video)
+
+  - now_playing_response.dart (se va a crear en este video)
+                              (es para mapear los metodos o propiedades de un mapa 
+                              u objeto, con el "response" al final del nombre hace alusion 
+                              a el mapeo de una respuesta http) (sirve para poder manejar
+                              la respuesta)
+                              ("https://app.quicktype.io/" pagina para convertir un objeto o mapa en un modelo)
+                              (dejar marcadas las opciones: "put encoder & decoder in class",
+                              "use method names fromMap() & toMap()")
+
+
+ - providers
+  - movies_provider.dart (se modifico en este video)
+
+ - screens
+
+  - home_screen.dart
+  - details_screen.dart 
+  - screens.dart        
+
+ - widgets
+  - card_swiper.dart 
+  - widgets.dart       
+  - movie_slider.dart
+  - casting_cards.dart
+
+Ruta para realizar las peticiones:
+https://api.themoviedb.org/3/movie/now_playing?api_key=d9fb15c4aa0b70f50e8a3395ad5e5d84&language=es-ES&page=1

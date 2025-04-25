@@ -1,0 +1,3 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+ screens
+  - alert_screens.dart (se modifico este archivo en este video)

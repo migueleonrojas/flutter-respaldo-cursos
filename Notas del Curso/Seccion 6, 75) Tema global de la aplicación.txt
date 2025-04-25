@@ -1,0 +1,11 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  - main.dart (se va a modificar este archivo en este video)
+
+  - theme (se va a crear un nueva carpeta en este video)
+
+    - app_theme.dart (se va a crear este archivo en este video)
+
+  - screens 
+
+    - home_screens.dart (se va a modificar esta carpeta en este video)

@@ -1,0 +1,51 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+//importando mas funcionalidad.
+//as math: para saber que de esta importacion se esta usando su funcionalidad
+import 'dart:math' as math;
+
+void main(){
+  
+  final cuadrado = new Cuadrado(5);
+  
+  //llamando a un setter no se diferencia a una propiedad desde aqui
+  cuadrado.area = 40;
+  
+  print('area: ${cuadrado.calculaArea()}');
+  print('area: ${cuadrado.lado}');
+  
+  //llamando a un getter
+  print('area get: ${cuadrado.area}');
+  
+  
+  
+}
+
+class Cuadrado {
+  
+  double lado;
+  
+  Cuadrado(double lado):
+    this.lado = lado;
+  
+  //getter: se parece a un metodo aunque no lo es, pero se llama como una propiedad
+  
+  //definiendo un getter
+  double get area{
+    return this.lado * this.lado;
+  }
+  
+  //definiendo un setter
+  set area(double valor){
+    this.lado = math.sqrt(valor);//usando la funcionalidad de la importacion
+  }
+  
+  
+  
+  double calculaArea(){
+    return this.lado * this.lado;
+  }
+  
+}

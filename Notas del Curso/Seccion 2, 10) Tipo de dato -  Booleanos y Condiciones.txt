@@ -1,0 +1,20 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main(){
+  
+  //variable de tipo booleana, soporta true, false o null
+  //?: para indicar que la variable puede tener valores nulos
+  bool? isActive = null;
+  
+  
+  if(isActive == null) {
+    print('isActive es null');
+  }else{
+    print('No es null');
+  }
+  
+ 
+  
+}

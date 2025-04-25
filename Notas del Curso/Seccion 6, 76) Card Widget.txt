@@ -1,0 +1,6 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  
+  - screens 
+
+    - card_screens.dart (se va a modificar esta carpeta en este video)

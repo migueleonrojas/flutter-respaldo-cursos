@@ -1,0 +1,8 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+widgets
+
+ - custom_card_type_2.dart (se va a modificar este archivo en este video)
+
+screens
+ - card_screens.dart  (se va a modificar este archivo en este video)

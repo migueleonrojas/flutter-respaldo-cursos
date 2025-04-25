@@ -1,0 +1,14 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - helpers
+
+ - providers
+
+ - screens
+
+  - home_screen.dart    (se creo en este video)
+  - details_screen.dart (se creo en este video)
+  - screens.dart        (se creo en este video)
+
+ - widgets

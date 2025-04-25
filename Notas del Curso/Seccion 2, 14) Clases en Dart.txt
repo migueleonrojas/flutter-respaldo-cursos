@@ -1,0 +1,46 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main(){
+  //instanciando una clase que se creo
+  //pasandole valores al metodo constructor al instanciar la clase
+  final wolverine = new Heroe(nombre:'Logan',poder:'Regeneracion');
+  
+  //tambien se puede instanciar asi
+  //final Heroe wolverine = new Heroe();
+  
+  //accediendo a las propiedades de la clase y asignandole el valor
+  //wolverine.nombre = 'Logan';
+  //wolverine.poder = 'Regeneracion';
+  
+  print(wolverine);
+  
+}
+
+//definiendo una clase
+class Heroe {
+ 
+  //creando una propiedades
+  String nombre;
+  String poder;
+  
+  //el constructor de la clase debe tener el mismo nombre que la clase
+  //estas parametros se pasan al instanciar la clase
+  Heroe({required this.nombre, required this.poder});
+    
+  
+  //sobreescribir un metodo que tiene por defecto cualquier clase que se vaya a crear
+  //el toString se ejecuta al instanciar esta clase
+  @override//opcional colocarlo, pero es buena practica indicarlo
+  String toString(){
+    //se coloca entre llaves porque si no se llama el this solamente,
+    //y entra en un ciclo infinito donde siempre se anda llamando a si
+    //mismo a traves del this
+    //{}entre llaves para llamar la propiedad nombre de this=esta clase
+    return 'Heroe: nombre: ${this.nombre}, poder: ${this.poder}';
+  }
+  
+  
+  
+}

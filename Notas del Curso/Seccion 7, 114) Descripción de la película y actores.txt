@@ -1,0 +1,26 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - assets 
+
+ pubspec.yaml
+
+ main.dart           
+
+ - helpers
+
+ - providers
+
+ - screens
+
+  - home_screen.dart
+  - details_screen.dart (se modifico en este video)
+  - screens.dart        
+
+ - widgets
+  - card_swiper.dart 
+  - widgets.dart       (se modifico en este video)
+  - movie_slider.dart
+  - casting_cards.dart (se creo en este video)
+
+  - La opcion de la lupa te ayuda saber que widgets el cual solo seleccionandolo en el emulador

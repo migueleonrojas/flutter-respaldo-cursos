@@ -1,0 +1,29 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main() {
+  
+  //future es como una promesa en javascript
+  //el future no es mas que una tarea asincrona: es algo que se
+  //ejecuta a diferente tiempo
+  
+  
+  print('Antes de la peticion');
+  
+  
+  //then: lo que se ejecuta despues que el future se resuelva
+  httpGet('https://api.nasa.com/aliens')
+    .then((data) {
+      print(data.toUpperCase());
+    });
+  
+  print('Fin del programa');
+   
+}
+
+Future<String> httpGet(String url) {
+  return Future.delayed(
+    Duration(seconds:3),() => 'Hola mundo - 3 segundos'
+  );
+}

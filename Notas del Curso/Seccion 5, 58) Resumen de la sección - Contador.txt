@@ -1,0 +1,22 @@
+Flutter recomienda mejor trabajar con StatelessWidget porque:
+
+1 - Se renderizan mas rapido
+2 - Trabajan mejor
+3 - No tienen que mantener estado
+4 - Son mas sencillos para mantenerlos en memoria
+5 - Funcionan mas rapido
+
+
+Un build no puede ser asincrono
+
+Un gestor de estado separa la logica del estado del widget
+
+StateFullWidget es un widget que mantiene un estado, para mantener el estado este se crea
+Este estado es basicamente una clase
+Cada vez que hay una modificacion del estado, se crea un nuevo estado, y este nuevo estado
+se envia a nuestro StateFullWidget el cual crearia un nuevo estado con su valor nuevo, ejecuta
+la clase nuevamente
+
+Un StateFullWidget no se puede pasar a un StatelessWidget de forma automatica con el comando
+control + .
+Se haria manualmente

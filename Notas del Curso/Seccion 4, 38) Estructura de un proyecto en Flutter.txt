@@ -1,0 +1,67 @@
+.package : indican que paquetes estan siendo utilizados
+
+pubspec.yaml: 
+  - se pueden ver los paquetes del ".package"
+  - para indicar la version del sdk que estamos trabajando
+  - que sdk estamos usando
+  - que version de cupertino estamos usando, son iconos
+  - que depencia de desarrollo tenemos
+  - cuando se guarda algun cambio en este archivo, se instala o remueve dependencias, las dependencias
+  que hayamos hecho
+  - se hace instalaciones de dependencias
+
+  Nota: mucho cuidado al manipular este archivo, solo un espacio mal colocado puede hacer que 
+  no funcione este archivo adecuadamente
+
+  README.md: aqui se indica como se hace para poner en funcionamiento el proyecto, de que se trata 
+  el proyecto, de como funciona el proyecto y lo que se usa para hacer andar el proyecto.
+
+pubspec.lock:
+
+  - es como el package.log de node
+  - no se manipula manualmente
+  - dice como fue construido cada una de las dependencias de su proyecto
+
+mi_app.iml:
+  - tiene el mismo nombre que el proyecto, puede cambiar dependiendo del nombre del proyecto
+  - es un archivo del intellij
+  - se ve en el .gitignore
+
+.idea: 
+  - carpeta que contiene una serie de extensiones que ya viene pre configurada, para que cuando
+  estemos en algun IDE tegamos la configuracion recomendada por el equipo de flutter
+
+.android: (si sabes kotlin o java puedes manipular el codigo dentro de esta carpeta)
+
+  - es el proyecto de java de mi aplicacion propiamente
+  - cuando se haga el build de produccion
+  - se necesite hacer una interaccion propia y configuraciones propias para android
+    - se puede indicar que la aplicacion va a funcionar con cierta version de android
+    - solicitar la habilitacion google maps
+    - solicitar permiso de gps
+
+  Nota: si se llega a borrar esta carpeta y ejecutan el comando "flutter create" 
+  se borra toda la configuracion que se uso
+
+.ios: (si sabes swift puedes manipular el codigo dentro de esta carpeta)
+  - se necesite hacer una interaccion propia y configuraciones propias para ios
+    - se puede indicar que la aplicacion va a funcionar con cierta version de ios
+    - solicitar la habilitacion google maps
+    - solicitar permiso de gps
+
+  - con las ultimas versiones de flutter es un proyecto de swift
+
+  Nota: si se llega a borrar esta carpeta y ejecutan el comando "flutter create" 
+  se borra toda la configuracion que se uso
+
+.test:
+  - para escribir los test
+  - se recomienda que tenga la misma estructura que la carpeta .lib
+
+.web:
+
+  - es similar a la carpeta de android e ios
+  - version de flutter para la web
+  - con las misma base de codigo se puede hacer aplicaciones para android, ios.
+
+.lib: 

@@ -1,0 +1,5 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+ 
+ - screens
+
+  - slider_screen.dart (se va a crear este archivo en este video)

@@ -1,0 +1,41 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - assets 
+
+ pubspec.yaml 
+
+ main.dart           
+
+ - helpers
+
+ - models 
+
+  - search_response.dart  
+  - credits_response.dart    
+  - popular_response.dart 
+  - now_playing_response.dart 
+  - movie.dart  
+  - models.dart     
+
+         
+
+ - providers
+  - movies_provider.dart  
+
+
+ - screens
+
+  - home_screen.dart      
+  - details_screen.dart    
+  - screens.dart        
+
+ - widgets
+  - card_swiper.dart       
+  - widgets.dart       
+  - movie_slider.dart
+  - casting_cards.dart  
+ 
+ - search 
+  search_delegate.dart (se modifico)
+

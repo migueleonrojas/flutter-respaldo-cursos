@@ -1,0 +1,43 @@
+Stream por definicion: Como un rio estrecho, o un flujo de liquido, aire y gas.
+
+
+Flujo del agua = es como el Stream, es un flujo de informacion, pueden haber otros origenes
+de informacion que se conecten a nuestro Stream para obtener mas informacion.
+
+La informacion solo fluye en una sola direccion,
+
+Podemos llevar la salida al inicio si se desea.
+
+Un ejemplo son los streming de videos:
+
+1 - Ellos estan emitiendo informacion (video)
+2 - Nosotros, vemos el video, No interactuamos directamente con el video (Lo hacemos por una caja de comentarios)
+3 - Por la transmisionde video, no les hablamos
+4 - La informacion es emitida a muchas personas a la vez como puede ser a una sola persona
+5 - Los que emiten la informacion (video) pueden decidir, Que mensaje leer, y a la vez, que mensaje ignorar
+
+Los Stream en ReactiveX son conocidos como Observables
+
+Stream = flujo de informacion que fluye en una sola via
+
+     |   <--------- Datos entrada
+     |
+     v
+
+     ||  <------  esta tuberia seria el StreamController, procesa la informacion que entra y que sale
+     ||  <------  se puede ejecutar cierto codigo
+     ||  <------  sink: objeto que esta dentro del StreamController para agregar informacion al stream, al inicio del flujo
+     ||  <------  stream: propiedad para escuchar la salida de la informacion, la cual va estar emitiendo cualquier cosa que nuestro StreamController emita 
+
+     ||  <------ streamTransformer :  transformador de streams. algo que transforma la informacion que entra, determina si puede salir, si emite un error o como quiere que salga, controla la manera en como la informacion salga
+     ||
+     ||
+     ||
+
+
+     ||  <------ los datos de entrada pasan por la tuberia
+     ||
+
+     |
+     |  <----- datos de salida
+     V

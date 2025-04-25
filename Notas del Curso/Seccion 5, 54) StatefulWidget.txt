@@ -1,0 +1,6 @@
+Se va a crear un archivo "counter_screen.dart" dentro de la carpeta "screens"
+
+Se va a modificar el archivo "main.dart"
+
+El uso del StatefulWidget es para cuando se quiera cambiar las propiedades del widget, esto es por
+los momentos, ya que hay otras alternativas que se veran mas adelante.

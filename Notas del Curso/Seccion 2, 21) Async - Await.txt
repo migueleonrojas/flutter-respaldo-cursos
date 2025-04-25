@@ -1,0 +1,41 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+void main() async {//async: permite que una peticion asincrona se espere
+                   //a que se realize y luego continue con las demas
+                   //instrucciones
+  
+  print('Antes de la peticion');
+ 
+  final data = await httpGet('https://api.nasa.com/aliens');
+  
+  print(data);
+ 
+   
+  
+  //(print) es igual a: ((data) => print(data))
+  //cuando se tiene un argumento en el then y ese argumento es el primer argumento
+  //que se le va a enviar a otra funcion, entonces solo con referenciar la funcion
+  //es lo mismo
+  //getNombre('10').then(print);
+  
+  //para que no se ejecute la funcion de ultimo, sino que espere a que se ejecute
+  //para continuar con lo que esta debajo de esta
+  //final nombre = await getNombre('10');//await: indica que se va a esperar a que 
+  //print(nombre);                       //se realize la funcion asincrona
+  
+  print('Fin del programa');
+  
+}
+
+//creando funcion asincrona
+Future<String> getNombre(String id) async {
+    return '$id - Fernando';
+} 
+
+Future<String> httpGet(String url) {
+  return Future.delayed(
+    Duration(seconds:3),() => 'Hola mundo - 3 segundos'
+  );
+}

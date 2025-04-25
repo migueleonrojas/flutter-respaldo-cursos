@@ -1,0 +1,8 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  - main.dart (se va a modificar este archivo en este video)
+
+  - screens
+
+    - listview1_screens.dart (se va a modificar este archivo en este video)
+    - listview2_screens.dart (se creo este archivo en este video)

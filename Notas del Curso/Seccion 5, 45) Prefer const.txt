@@ -1,0 +1,20 @@
+En el uso de const es para los Widgets que no van a cambiar su valor y que los widgets que
+contiene tampoco va a cambiar su valor, por ejemplo:
+
+Widget build(BuildContext context) {
+    
+    return const MaterialApp(//no va a cambiar sus valores, se coloca const antes de la declaracion de la clase
+      home: Center(          // los demas no llevan porque el widget que los engloba a todos ya posee el const
+        child: Text('Hola Mundo'),
+      ),
+    );
+  }
+
+El const indica que el widget nunca va cambiar, mas que todo cuando no se hace cambios dinamicos
+en la declaracion del widget
+
+Cuando el valor de la data y propiedades del widget nunca cambia al momento 
+de ser construido, se coloca el const antes de colocar el widget.
+
+Para hacerlo mas sencillo cuando los valores del widget nunca van a cambia desde su creacion o
+instancia

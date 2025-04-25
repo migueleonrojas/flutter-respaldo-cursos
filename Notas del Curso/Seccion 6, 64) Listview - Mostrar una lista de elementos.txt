@@ -1,0 +1,19 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  - main.dart (se va a modificar este archivo en este video)
+
+  - screens (se creo esta carpeta en este video)
+
+    - listview1_screens.dart (se creo este archivo en este video)
+
+
+
+Vamos a configurar un snippet = control + shift + p => configure user snippets > dart.json
+
+En este archivo dart.json se borra todo el contenido del siguiente archivo: 
+https://gist.github.com/Klerith/711749216f31996f1a7bf68c815d1385
+
+Esto es un atajo para colocar codigo
+
+Usualmente el nombre de la clase debe ser igual al nombre del archivo, pero lo clase va en 
+mayusculas 

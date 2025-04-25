@@ -1,0 +1,25 @@
+1 - Al instalar android studio se usa la version standard
+2 - Ya al tener instalado el android studio, se ejecuta y se busca la seccion plugins, se busca
+la que se llama "dart" y "flutter"
+
+3 - En donde dice "more actions" > "Virtual Device Manager"
+
+3.1 - Puedes crear tu template o seleccionar el que desees
+3.2 - Descarga 2 versiones de android, la que es mas nueva y la mas vieja posible
+
+4 - Al seleccionar la version de android, en "graphics" dejar en (automatic)
+
+5 - Y colocar en la ultima parte la ram a la mitad de la capacidad que posee tu pc
+
+Ya estaria listo la maquina Virtual
+
+Le das play
+
+6 - En el power shell agregar el siguiente comando = flutter doctor --android-licenses
+para aceptar las licencias
+
+- Si hay inconvenientes entonces ir al android studio > more actions > SDK Manager > SDK Tools
+
+Marcar el chech: Android SDK Command-line Tools (latest) y se descargara
+
+y despues nuevamente ejecuta el comando: flutter doctor --android-licenses

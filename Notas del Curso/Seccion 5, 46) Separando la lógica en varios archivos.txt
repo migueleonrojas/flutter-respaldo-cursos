@@ -1,0 +1,6 @@
+Se va a crear diversas carpetas con sus archivos pertinentes para dividir la logica de nuestro
+programa
+
+Se va a crear una carpeta llamada "screens"
+
+  - Se va a crear un archivo llamado "home_screen.dart"

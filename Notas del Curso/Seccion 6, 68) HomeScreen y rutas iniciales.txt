@@ -1,0 +1,17 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  - main.dart (se va a modificar este archivo en este video)
+
+  - screens
+
+    - screens.dart (se crea este archivo para que se importen todos los archivos de la carpeta 
+                    screens en una sola importacion y no en muchas importaciones, se coloca
+                    el mismo nombre que de la carpeta)
+  
+    - listview2_screens.dart (se va a modificar este archivo en este video)
+    
+    - alert_screens.dart (se va a crear este archivo en este video)
+
+    - card_screens.dart (se va a crear este archivo en este video)
+
+    - home_screens.dart (se va a crear este archivo en este video)

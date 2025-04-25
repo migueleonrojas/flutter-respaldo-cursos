@@ -1,0 +1,17 @@
+https://dartpad.dartlang.org/? = es un editor de codigo online de dart
+
+Se coloco como codigo en este editor lo siguiente:
+
+// main debe retornar un valor, con void se indica que no se retorna nada, en cambio si no fuera
+// asi entonces se indica el tipo de dato : int main(){return 1}. Retornando el tipo de dato que se
+// especifico en el main
+// todo codigo dart debe ejecutarse dentro de una funcion main para que funcione
+void main() {
+  //esto es un comentario
+  
+  /* esto es un
+   * comentario multilinea */
+  
+  print('Hola Mundo');
+  
+}

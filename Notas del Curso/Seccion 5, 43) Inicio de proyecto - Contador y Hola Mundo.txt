@@ -1,0 +1,1 @@
+Vamos a crear un proyecto en la carpeta "Flutter", el cual se va a llamar "counter_app"

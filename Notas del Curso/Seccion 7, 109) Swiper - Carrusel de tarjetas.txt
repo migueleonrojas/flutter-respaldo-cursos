@@ -1,0 +1,29 @@
+Se va a crear un proyecto con el nombre de "peliculas" que poseen la siguiente estructura de 
+carpetas:
+
+ - assets (se creo esta carpeta en este video)
+  - se colocaron 2 imagenes
+
+
+ pubspec.yaml (se modifico en este video, se coloco = "pubspec.yaml" abajo de 
+               "cupertino_icons: ^1.0.2" para realizar la instalacion de este paquete,
+               y se coloco la ruta de los assets)
+
+ main.dart           
+
+ - helpers
+
+ - providers
+
+ - screens
+
+  - home_screen.dart    
+  - details_screen.dart 
+  - screens.dart        
+
+ - widgets
+  - card_swiper.dart 
+  - widgets.dart 
+
+- Todos los paquetes que usemos tienen que tener null safety para poder trabajar con el null safety,
+y trabajar sin problemas.

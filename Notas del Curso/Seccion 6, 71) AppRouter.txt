@@ -1,0 +1,5 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+
+  - router (se va a crear esta carpeta en este video)
+
+    - app_routes.dart (se creo este archivo en este video)

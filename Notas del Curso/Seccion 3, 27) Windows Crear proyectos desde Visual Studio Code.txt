@@ -1,0 +1,12 @@
+1 - Para abrir el command palet = ctrl + shift + p
+
+2 - Se coloca "flutter new project" > "application" 
+
+3 - Se debe indicar en donde se van a colocar las aplicaciones de flutter
+
+4 - Project name se coloca = my_app => en este caso
+
+5 - Ya en el proyecto adentro, otra vez ejecutas el comando: ctrl + shift + p, 
+5.1 - Escribes: flutter select device
+5.2 - Eliges el dispositivo que creastes en el video anterior (que es lo del template), 
+y presionas f5

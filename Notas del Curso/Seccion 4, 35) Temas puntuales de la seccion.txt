@@ -1,0 +1,13 @@
+Temas puntuales de la sección
+En esta sección tocaremos temas sobre:
+
+Conceptos fundamentales en Flutter
+
+Árbol de Widgets
+
+Estructura de un proyecto en Flutter
+
+Exposición de cada archivo generado automáticamente
+
+Esta es una sección pequeña pero ilustrativa, recomendada para personas que son nuevas 
+a Flutter o bien tienen poco conocimiento al respecto

@@ -1,0 +1,17 @@
+En el proyecto "fl_components" se va a crear o modificar "carpetas" o "archivos"
+ - screens 
+
+    - card_screens.dart (se va a modificar esta carpeta en este video)
+
+ - widgets (Se va a crear una carpeta para guardar los widgets)
+
+  - widgets.dart (se va a crear este archivo en este video, nuestro tipico archivo de exportacion)
+  - custom_card_type_1.dart (se va a crear este archivo en este video)
+
+ - theme
+
+  - app_theme.dart (se va a modificar este archivo en este video)
+
+En el card realizamos el comando control + "." + "p" > Extract Widget > Se le asigna el nombre 
+en este caso se colocara = CardCustomType1, esto genera la clase con los widgets necesarios para
+que se pueda ver el card
